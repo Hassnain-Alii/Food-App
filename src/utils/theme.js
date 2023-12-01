@@ -4,6 +4,8 @@ const colors = {
   accentColor: "#FFD700", // A complementary or contrasting color
   black: "#000000",
   white: "#FFFFFF",
+  danger: "red",
+  success: "green",
 };
 
 export { colors };

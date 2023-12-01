@@ -43,9 +43,9 @@ function HomeNavigator() {
       })}
     >
       <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="Raws" component={Home} />
+      {/* <Tab.Screen name="Raws" component={Home} /> */}
       <Tab.Screen name="DishStack" name={"Dishes"} component={DishNavigator} />
-      <Tab.Screen name="Sales" component={Home} />
+      {/* <Tab.Screen name="Sales" component={Home} /> */}
       <Tab.Screen name="Profile" component={Profile} />
     </Tab.Navigator>
   );

@@ -159,6 +159,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   buttonCon: {
+    // marginTop: 300,
     height: 45,
     width: "80%",
     alignSelf: "center",
@@ -168,7 +169,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   alreadyhaveAccount: {
-    margin: 10,
+    marginTop: 10,
     flexDirection: "row",
     alignItems: "center",
     alignSelf: "center",
