@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Eaton",
-    "slug": "Eaton",
+    "name": "Food App",
+    "slug": "Food App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
