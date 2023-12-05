@@ -19,9 +19,9 @@ export default function Login({ navigation }) {
     navigation.navigate("Signup");
   };
   const onForgotPress = () => {
-    navigation.navigate("Tabs");
+    // navigation.navigate("Tabs");
 
-    // navigation.navigate("ForgotPassword");
+    navigation.navigate("ForgotPassword");
   };
 
   useEffect(() => {
@@ -82,7 +82,7 @@ export default function Login({ navigation }) {
 
   return (
     <View style={{ flex: 1 }}>
-      <Header headingText={"Login"} />
+      <Header headingText={"Login"} showBackBtn={false} />
       <View style={styles.form}>
         <Input
           inputTitle={"Email"}
