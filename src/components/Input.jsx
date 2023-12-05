@@ -13,7 +13,6 @@ import { colors } from "../utils/theme";
 function Input({
   inputTitle,
   onChangeText,
-  isSecure = false,
   keyboardType,
   autoCapitalize,
   value,
@@ -22,6 +21,7 @@ function Input({
   errorMsg,
   valid,
   isPassword = false,
+  onRightText,
 }) {
   const [showPassword, setShowPassword] = useState(isPassword);
   const shakeAnimationValue = new Animated.Value(0);
@@ -100,6 +100,7 @@ function Input({
               value={value}
               editable={isEditable}
             />
+            <Text>{onRightText}</Text>
             {error && <Ionicons name={"close"} size={20} color={"red"} />}
             {valid && <Ionicons name={"checkmark"} size={20} color={"green"} />}
           </View>
@@ -115,7 +116,7 @@ function Input({
 
 const styles = StyleSheet.create({
   inputCon: {
-    marginVertical: 10,
+    marginVertical: 5,
     backgroundColor: "white",
     padding: 10,
     borderRadius: 10,
