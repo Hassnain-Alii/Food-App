@@ -23,11 +23,8 @@ export default function home({ navigation }) {
 
 const styles = StyleSheet.create({
   sliderBox: {
-    // flex: 1,
     height: "100%",
     width: "100%",
-    // alignSelf: "center",
-    // marginVertical: 10,
   },
   form: {
     padding: 10,

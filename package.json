@@ -13,6 +13,7 @@
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.16",
     "@rneui/themed": "^4.0.0-rc.8",
+    "deprecated-react-native-prop-types": "^5.0.0",
     "email-validator": "^2.0.4",
     "expo": "^49.0.16",
     "expo-camera": "~13.4.4",
